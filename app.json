@@ -2,7 +2,9 @@
   "expo": {
     "name": "RWSApp",
     "slug": "RWSApp",
+    "owner": "krishlay",
     "version": "1.0.0",
+    "scheme": "rwsapp",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -13,9 +15,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "bundleIdentifier": "com.rwsapp.mobile",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.rwsapp.mobile",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -24,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "9eac86f1-36fc-4855-ab40-11f65f884959"
+      }
     }
   }
 }
