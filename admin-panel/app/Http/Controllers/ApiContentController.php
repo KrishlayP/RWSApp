@@ -61,6 +61,7 @@ class ApiContentController extends Controller
             'subtitle' => $item->subtitle,
             'type' => $item->type,
             'image' => $item->image_url,
+            'images' => $item->gallery_urls ?: array_values(array_filter([$item->image_url])),
             'mediaUrl' => $item->media_url,
             'size' => $item->size_label,
         ];
