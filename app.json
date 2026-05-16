@@ -20,6 +20,7 @@
     },
     "android": {
       "package": "com.rwsapp.mobile",
+      "googleServicesFile": "./android/app/google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -29,7 +30,11 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [],
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "expo-dev-client"
+    ],
     "extra": {
       "eas": {
         "projectId": "9eac86f1-36fc-4855-ab40-11f65f884959"

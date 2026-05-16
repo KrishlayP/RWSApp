@@ -116,11 +116,11 @@ export const FEATURE_TILES = [
 ];
 
 export const DRAWER_ITEMS = [
-  { id: "d1" },
-  { id: "d2" },
-  { id: "d3" },
-  { id: "d4" },
-  { id: "d5" },
+  { id: "d1", page: "profile" },
+  { id: "d2", page: "downloads" },
+  { id: "d3", page: "favorites" },
+  { id: "d4", page: "settings" },
+  { id: "d5", page: "logout" },
 ];
 
 export const LANGUAGES = [

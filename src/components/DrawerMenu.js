@@ -18,7 +18,7 @@ function DrawerMenu({ drawerX, isOpen, onClose, onOpenPage, t }) {
           <TouchableOpacity
             key={item.id}
             style={styles.drawerItem}
-            onPress={() => onOpenPage(t(`drawer_${item.id}`))}
+            onPress={() => onOpenPage(item.page)}
           >
             <Text style={styles.drawerItemText}>{t(`drawer_${item.id}`)}</Text>
           </TouchableOpacity>

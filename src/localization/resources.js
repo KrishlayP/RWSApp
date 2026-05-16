@@ -57,7 +57,9 @@ export const ENGLISH_TRANSLATIONS = {
   phoneInvalid: "Enter a valid mobile number.",
   otpSendFirst: "Send OTP first.",
   otpInvalid: "Invalid OTP. Please try again.",
-  otpDevHint: "Test OTP:",
+  otpSendFailed: "Could not send OTP. Please try again.",
+  otpSmsHint: "Check SMS, or use your Firebase test code.",
+  pleaseWait: "Please wait...",
 };
 
 export const HINDI_TRANSLATIONS = {
@@ -109,17 +111,19 @@ export const HINDI_TRANSLATIONS = {
   notificationPrompt: "दैनिक भक्ति रिमाइंडर के लिए नोटिफिकेशन अनुमति दें?",
   allow: "अनुमति दें",
   dontAllow: "अनुमति नहीं",
-  phoneLoginTitle: "??? ??????????",
-  phoneLoginSubtitle: "??? ????? ?? ??? ???? ?????? ???? ??????",
-  phonePlaceholder: "?????? ????",
-  otpPlaceholder: "OTP ?????",
-  sendOtp: "OTP ?????",
-  verifyOtp: "??????? ????",
-  cancel: "???? ????",
-  phoneInvalid: "??? ?????? ???? ??????",
-  otpSendFirst: "???? OTP ??????",
-  otpInvalid: "OTP ??? ??? ??? ????? ?????",
-  otpDevHint: "????? OTP:",
+  phoneLoginTitle: "Phone verification",
+  phoneLoginSubtitle: "Mobile number enter karo. Testing ke liye OTP 123456 use karo.",
+  phonePlaceholder: "Mobile number",
+  otpPlaceholder: "Enter OTP",
+  sendOtp: "Send OTP",
+  verifyOtp: "Verify",
+  cancel: "Cancel",
+  phoneInvalid: "Valid mobile number enter karo.",
+  otpSendFirst: "Pehle OTP send karo.",
+  otpInvalid: "OTP galat hai. Dobara try karo.",
+  otpSendFailed: "OTP send nahi ho paaya. Dobara try karo.",
+  otpSmsHint: "Test OTP: 123456",
+  pleaseWait: "Please wait...",
 };
 
 const LEGACY_TRANSLATIONS = {
